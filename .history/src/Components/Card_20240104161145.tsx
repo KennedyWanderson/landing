@@ -45,7 +45,7 @@ export default function OutlinedCard() {
         <Box sx={{ minWidth: 275 }}>
             <Card variant="outlined">
                 {/* Chama o componente CardContentComponent dentro do Card */}
-                <CardContentComponent text=" texto aqui" />
+                <CardContentComponent text="Seu texto aqui" />
             </Card>
         </Box>
     );

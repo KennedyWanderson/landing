@@ -13,8 +13,8 @@ export default function  ResponsiveGrid () {
                     <div className="flex flex-col items-center p-5 shadow-md rounded-xl bg-gray-100">
                         <div className="flex items-center justify-center ">
                             <OutlinedCard />
-                            <OutlinedCard />
-                            <OutlinedCard />
+                            <OutlinedCard  />
+                            <OutlinedCard  />
                         </div>
                     </div>
                 </Grid>
