@@ -9,6 +9,9 @@ export default function ResponsiveGrid() {
         <Grid item xs={12} sm={6} md={4} key={index}>
           <OutlinedCard />
         </Grid>
+                <Grid item xs={12} sm={6} md={4} key={index}>
+                <OutlinedCard />
+              </Grid>x
       ))}
     </Grid>
   );

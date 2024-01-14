@@ -19,7 +19,6 @@ function CardContentComponent(props: AboutProps) {
     return (
         <React.Fragment>
             <CardContent>
-                <Image className="w-full" src="/me.jpeg" alt="" width={300} height={300} />
             </CardContent>
             <CardActions>
                 <Button size="small">View</Button>

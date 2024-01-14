@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Image from "next/image";
+import { Image } from '@mui/icons-material';
 
 interface AboutProps {
     text: string;
@@ -19,7 +19,7 @@ function CardContentComponent(props: AboutProps) {
     return (
         <React.Fragment>
             <CardContent>
-                <Image className="w-full" src="/me.jpeg" alt="" width={300} height={300} />
+                <Image h4 />
             </CardContent>
             <CardActions>
                 <Button size="small">View</Button>

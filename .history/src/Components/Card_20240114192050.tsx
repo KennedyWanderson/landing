@@ -21,6 +21,9 @@ function CardContentComponent(props: AboutProps) {
             <CardContent>
                 <Image className="w-full" src="/me.jpeg" alt="" width={300} height={300} />
             </CardContent>
+            <CardContent>
+                <Image className="w-full" src="/me.jpeg" alt="" width={300} height={300} />
+            </CardContent>
             <CardActions>
                 <Button size="small">View</Button>
             </CardActions>

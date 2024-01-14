@@ -20,11 +20,11 @@ export default function Content(){
                 </div>
             </Grid>
             <Divider>Sobre mim</Divider>
-                <Projects />
             <Divider>Projetos</Divider>
             <div className="flex flex-col items-center">
                 <About />
-                {/* <Contact /> */}
+                {/* {/* <Projects /> */}
+                <Contact /> */}
             </div>
 
         </Container>
